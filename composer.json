@@ -1,0 +1,14 @@
+{
+    "description" : "A fully RESTful client implementation for CodeIgniter using one library and using the codeigniter-curl package",
+    "name" : " philsturgeon/codeigniter-restclient",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+		"bca/curl": "2.*"
+    },
+    "autoload": {
+        "classmap": [
+			"application/libraries"
+		]
+    }
+}
